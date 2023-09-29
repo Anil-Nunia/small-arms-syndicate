@@ -7,7 +7,7 @@
 
  
 :root {
-    --ff-primary:agnostic;
+    --ff-primary:'agnostic';
     --ff-secondary: 'Poppins',
         sans-serif;
     --ff--tertiary: 'Roboto',
@@ -36,7 +36,8 @@
     --black-color: #000;
     --primary-color: #fed710;
     --secondary-gradient-color: linear-gradient(180deg, #FED710 0%, #FF5001 100%) !important;
-    --tertiary-color: #0d0d0d;
+    --bg-color: #000000;
+    
 
 }
 
