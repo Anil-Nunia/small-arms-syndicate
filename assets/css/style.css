@@ -1,8 +1,6 @@
-
-
 @import url(./root.css);
 
-*{
+* {
     list-style-type: none !important;
     text-decoration: none !important;
     box-sizing: border-box !important;
@@ -10,12 +8,58 @@
     margin: 0;
 }
 
-.syndicate-gif{
-    
-}
-.btn_buy{
+.syndicate-gif {}
+
+.btn_buy {
     border-radius: 100px;
-        background: linear-gradient(180deg, #FED710 0%, #FF5001 100%), #FFAE01;
-        padding: 14px 20px;
-      border: none;
+    background: linear-gradient(180deg, #FED710 0%, #FF5001 100%), #FFAE01;
+    padding: 14px 20px;
+    border: none;
+}
+
+.txt_captalize {
+    text-transform: capitalize;
+}
+
+.color_phase {
+    background: linear-gradient(180deg, #FED710 -100%, #FF5001 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line_height {
+    line-height: 174%;
+}
+
+.bgteamimg {
+    background-image: url(../image/bgteamimg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.card-team:hover {
+    box-shadow: 0px 4px 41px 0px rgba(254, 215, 16, 0.50);
+    border-radius: 17.393px;
+}
+.card-text-team {
+    position: absolute;
+    left: 25%;
+    bottom: 10%;
+    z-index: 1;
+}
+.whitsps {
+    white-space: nowrap;
+}
+.teamimg1 {
+    border-radius: 17.393px;
+    border: 1.263px solid #FF5001;
+}
+.bgsyngame{
+    background-image: url(../image/bgsyndictgame.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
