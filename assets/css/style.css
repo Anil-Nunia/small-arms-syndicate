@@ -2,7 +2,20 @@
 
 @import url(./root.css);
 
+*{
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+    padding: 0;
+    margin: 0;
+}
 
 .syndicate-gif{
     
+}
+.btn_buy{
+    border-radius: 100px;
+        background: linear-gradient(180deg, #FED710 0%, #FF5001 100%), #FFAE01;
+        padding: 14px 20px;
+      border: none;
 }
