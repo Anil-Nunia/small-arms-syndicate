@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+ @font-face {
+     font-family:'agnostic';
+          src: url('../agnostic-2-cufonfonts/Agnostic-gxDeq.ttf');
+ }
 
+ 
 :root {
-    --ff-primary: ;
+    --ff-primary:agnostic;
     --ff-secondary: 'Poppins',
         sans-serif;
     --ff--tertiary: 'Roboto',
@@ -30,7 +35,7 @@
     --white-color: #FFF;
     --black-color: #000;
     --primary-color: #fed710;
-    --secondary-color: linear-gradient(180deg, #FED710 0%, #FF5001 100%) !important;
+    --secondary-gradient-color: linear-gradient(180deg, #FED710 0%, #FF5001 100%) !important;
     --tertiary-color: #0d0d0d;
 
 }
@@ -102,6 +107,6 @@
 .primary_color{
     color: var(--primary-color);
 }
-.secondary_color{
+.secondary_gradient_color{
     color: var(--secondary-color);
 }
