@@ -305,7 +305,13 @@
         left: -15%;
         bottom: -5%;
     }
-
+.videoicon {
+    position: absolute;
+    bottom: -38%;
+    left: -28%;
+    max-width: 140px;
+    z-index: 4;
+}
     .royalty5img {
         max-width: 356px;
         width: 35%;
@@ -333,7 +339,13 @@
             left: -15%;
             bottom: -10%;
         }
-    
+        .videoicon {
+            position: absolute;
+            bottom: -18%;
+            left: -25%;
+            max-width: 140px;
+            z-index: 4;
+        }
         .royalty5img {
             max-width: 356px;
             width: 35%;
