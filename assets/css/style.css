@@ -1,8 +1,8 @@
 @import url(./root.css);
 
 * {
-    list-style-type: none !important;
-    text-decoration: none !important;
+    /* list-style-type: none !important; */
+    /* text-decoration: none !important; */
     box-sizing: border-box !important;
     padding: 0;
     margin: 0;
@@ -44,22 +44,152 @@
     box-shadow: 0px 4px 41px 0px rgba(254, 215, 16, 0.50);
     border-radius: 17.393px;
 }
+
 .card-text-team {
     position: absolute;
     left: 25%;
     bottom: 10%;
     z-index: 1;
 }
+
 .whitsps {
     white-space: nowrap;
 }
+
 .teamimg1 {
     border-radius: 17.393px;
     border: 1.263px solid #FF5001;
 }
-.bgsyngame{
+
+.bgsyngame {
     background-image: url(../image/bgsyndictgame.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+.bgsyn {
+    padding: 34px 37px;
+    border-radius: 17.34px;
+    border: 1.259px solid #FF5001;
+    backdrop-filter: blur(31.478700637817383px);
+    background: linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%);
+}
+
+.bgsyn:hover {
+    backdrop-filter: blur(31.478700637817383px);
+}
+
+.videoicon {
+    position: absolute;
+    bottom: -18%;
+    left: -25%;
+    max-width: 140px;
+}
+
+.line_higt {
+    line-height: 174%;
+}
+
+.color_grd {
+    background: linear-gradient(180deg, #FED710 54.08%, #FF5001 26.04%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-royalty {
+    background-image: url(../image/bg-royalty.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-royalty {
+    border-radius: 14.992px;
+    background: linear-gradient(124deg, rgba(255, 255, 255, 0.10) 10%, rgba(255, 255, 255, 0.03) 90%);
+    backdrop-filter: blur(27.21642303466797px);
+
+}
+
+.card-royalty::after {
+    content: "";
+    position: absolute;
+    border-radius: 17.393px;
+    padding: 1.263px;
+    background: linear-gradient(#ff5001 6%, #fed710 108%);
+    inset: 0;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    pointer-events: none;
+}
+
+
+.color-stashed {
+    background: linear-gradient(180deg, #FED710 -100%, #FF5001 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.royalty1img{
+    left: -15%;
+    bottom: -15%;
+}
+.royalty5img{
+right: -15%;
+bottom: -15%;
+}
+.pdingleft{
+    padding-left: 22px !important;
+}
+@media (min-width:320px) {
+    .royalty1img {
+        max-width: 294px;
+        width: 35%;
+        left: -15%;
+            bottom: -10%;
+    }
+    .royalty5img {
+        max-width: 356px;
+        width: 35%;
+        right: -15%;
+            bottom: -15%;
+    }
+        .royalty1{min-width: 60px;}
+        .royalty2{min-width: 50px;}
+        .royalty3{min-width: 50px;}
+}
+
+@media (min-width:576px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {
+    .m-top {
+        margin-top: -24px !important;
+    }
+}
+
+@media (min-width:1200px) {
+    .whitsps-syn {
+        white-space: nowrap;
+    }
+
+    .whitcont {
+        white-space: nowrap;
+    }
+         .royalty1img {
+             max-width: 294px;
+             width: 100%;
+             left: -15%;
+             bottom: -15%;
+         }
+    
+         .royalty5img {
+             max-width: 356px;
+             width: 100%;
+             right: -15%;
+             bottom: -15%;
+         }
+}
+
