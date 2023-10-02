@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
- @font-face {
-     font-family:'agnostic';
-          src: url('../agnostic-2-cufonfonts/Agnostic-gxDeq.ttf');
- }
+@font-face {
+    font-family: 'agnostic';
+    src: url('../agnostic-2-cufonfonts/Agnostic-gxDeq.ttf');
+}
 
- 
+
 :root {
-    --ff-primary:'agnostic';
+    --ff-primary: 'agnostic';
     --ff-secondary: 'Poppins',
         sans-serif;
     --ff--tertiary: 'Roboto',
         sans-serif;
-   
+
     /* font-size */
     --fs-xsm: 16px;
     --fs-sm: 18px;
@@ -35,89 +35,108 @@
     --white-color: #FFF;
     --black-color: #000;
     --primary-color: #fed710;
-   
+
 }
 
 /* font_family */
-.ff_primary{
+.ff_primary {
     font-family: var(--ff-primary);
 }
-.ff_secondary{
+
+.ff_secondary {
     font-family: var(--ff-secondary);
 }
-.ff_tertiary{
+
+.ff_tertiary {
     font-family: var(--ff--tertiary);
 }
 
 /* font_size */
-.fs_xsm{
+.fs_xsm {
     font-size: var(--fs-xsm);
 }
-.fs_sm{
+
+.fs_sm {
     font-size: var(--fs-sm);
 }
-.fs_md{
+
+.fs_md {
     font-size: var(--fs-md);
 }
-.fs_md1s{
+
+.fs_md1s {
     font-size: var(--fs-md1s);
 }
-.fs_md2s{
+
+.fs_md2s {
     font-size: var(--fs-md2s);
 }
-.fs_md3s{
+
+.fs_md3s {
     font-size: var(--fs-md3s);
 }
-.fs_lg{
+
+.fs_lg {
     font-size: var(--fs-lg);
 }
-.fs_lgs{
+
+.fs_lgs {
     font-size: var(--fs-lgs);
 }
-.fs_xl{
+
+.fs_xl {
     font-size: var(--fs-xl);
 }
-.fs_xls{
+
+.fs_xls {
     font-size: var(--fs-xls);
 }
-.fs_xxl{
+
+.fs_xxl {
     font-size: var(--fs-xxl);
 }
 
 /* font_weight */
-.fw_regular{
+.fw_regular {
     font-weight: var(--fw-regular);
 }
-.fw_medium{
+
+.fw_medium {
     font-weight: var(--fw-medium);
 }
-.fw_semibold{
+
+.fw_semibold {
     font-weight: var(--fw-semibold);
 }
 
 /* colors */
-.white_color{
+.white_color {
     color: var(--white-color);
 }
-.black_color{
+
+.black_color {
     color: var(--black-color);
 }
-.primary_color{
+
+.primary_color {
     color: var(--primary-color);
 }
-.secondary_gradient_color{
+
+.secondary_gradient_color {
     color: var(--secondary-gradient-color) !important;
 }
-.color_gradient{
+
+.color_gradient {
     background: -webkit-linear-gradient(#FED710 -100%,
-        #FF5001 100%);
-       -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+            #FF5001 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media (min-width:320px) {
-    :root{
+    :root {
         /* font-size */
+<<<<<<< HEAD
             --fs-xsm: 16px;
             --fs-sm: 16px;
             --fs-md: 20px;
@@ -130,80 +149,107 @@
             --fs-xls: 40px;
             --fs-xxl: 70px;
         
+=======
+        --fs-xsm: 12px;
+        --fs-sm: 16px;
+        --fs-md: 16px;
+        --fs-md1s: 14px;
+        --fs-md2s: 25px;
+        --fs-md3s: 28.977px;
+        --fs-lg: 20px;
+        --fs-lgs: 35px;
+        --fs-xl: 30px;
+        --fs-xls: 40px;
+        --fs-xxl: 35px;
+
+>>>>>>> a249628d46f6160f8a200afb83d51fc8d73e1ba6
     }
+
+    /* .pt-106 {
+        padding-top: 30px;
+    } */
+
+    .nav-logo {
+        width: 65px !important;
+    }
+
 }
+
 @media (min-width:576px) {
     :root {
-            /* font-size */
-            --fs-xsm: 16px;
-            --fs-sm: 18px;
-            --fs-md: 20px;
-            --fs-md1s: 22px;
-            --fs-md2s: 25px;
-            --fs-md3s: 28.977px;
-            --fs-lg: 30px;
-            --fs-lgs: 35px;
-            --fs-xl: 34px;
-            --fs-xls: 44px;
-            --fs-xxl: 70px;
-    
-          
-        }
+        /* font-size */
+        --fs-xsm: 16px;
+        --fs-sm: 18px;
+        --fs-md: 20px;
+        --fs-md1s: 18px;
+        --fs-md2s: 25px;
+        --fs-md3s: 28.977px;
+        --fs-lg: 30px;
+        --fs-lgs: 35px;
+        --fs-xl: 34px;
+        --fs-xls: 44px;
+        --fs-xxl: 40px;
+    }
+
 }
+
 @media (min-width:768px) {
     :root {
-            /* font-size */
-            --fs-xsm: 16px;
-            --fs-sm: 18px;
-            --fs-md: 20px;
-            --fs-md1s: 22px;
-            --fs-md2s: 25px;
-            --fs-md3s: 28.977px;
-            --fs-lg: 30px;
-            --fs-lgs: 35px;
-            --fs-xl: 34px;
-            --fs-xls: 44px;
-            --fs-xxl: 70px;
-    
-           
-        }
+        /* font-size */
+        --fs-xsm: 16px;
+        --fs-sm: 18px;
+        --fs-md: 20px;
+        --fs-md1s: 20px;
+        --fs-md2s: 25px;
+        --fs-md3s: 28.977px;
+        --fs-lg: 30px;
+        --fs-lgs: 35px;
+        --fs-xl: 34px;
+        --fs-xls: 44px;
+        --fs-xxl: 50px;
+    }
+
+    .w_100 {
+        width: 100% !important;
+    }
 }
+
 @media (min-width:992px) {
     :root {
-            /* font-size */
-            --fs-xsm: 16px;
-            --fs-sm: 18px;
-            --fs-md: 20px;
-            --fs-md1s: 22px;
-            --fs-md2s: 25px;
-            --fs-md3s: 28.977px;
-            --fs-lg: 30px;
-            --fs-lgs: 35px;
-            --fs-xl: 39px;
-            --fs-xls: 49px;
-            --fs-xxl: 70px;
-    
-           
-        }
+        /* font-size */
+        --fs-xsm: 16px;
+        --fs-sm: 18px;
+        --fs-md: 20px;
+        --fs-md1s: 22px;
+        --fs-md2s: 25px;
+        --fs-md3s: 28.977px;
+        --fs-lg: 30px;
+        --fs-lgs: 35px;
+        --fs-xl: 39px;
+        --fs-xls: 49px;
+        --fs-xxl: 70px;
+
+
+    }
 }
+
 @media (min-width:1200px) {
     :root {
-            /* font-size */
-            --fs-xsm: 16px;
-            --fs-sm: 18px;
-            --fs-md: 20px;
-            --fs-md1s: 22px;
-            --fs-md2s: 25px;
-            --fs-md3s: 28.977px;
-            --fs-lg: 30px;
-            --fs-lgs: 35px;
-            --fs-xl: 39px;
-            --fs-xls: 49px;
-            --fs-xxl: 70px;
-    
-          
-        }
+        /* font-size */
+        --fs-xsm: 16px;
+        --fs-sm: 18px;
+        --fs-md: 20px;
+        --fs-md1s: 22px;
+        --fs-md2s: 25px;
+        --fs-md3s: 28.977px;
+        --fs-lg: 30px;
+        --fs-lgs: 35px;
+        --fs-xl: 39px;
+        --fs-xls: 49px;
+        --fs-xxl: 70px;
+
+
+    }
 }
-@media (min-width:1400px) {
-    
-}
+
+@media (min-width:1400px) {}
