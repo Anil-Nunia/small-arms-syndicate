@@ -140,19 +140,15 @@
         --fs-sm: 16px;
         --fs-md: 16px;
         --fs-md1s: 14px;
-        --fs-md2s: 25px;
-        --fs-md3s: 28.977px;
+        --fs-md2s: 20px;
+        --fs-md3s: 24.977px;
         --fs-lg: 20px;
         --fs-lgs: 35px;
         --fs-xl: 30px;
-        --fs-xls: 40px;
+        --fs-xls: 30px;
         --fs-xxl: 35px;
 
     }
-
-    /* .pt-106 {
-        padding-top: 30px;
-    } */
 
     .nav-logo {
         width: 65px !important;
@@ -172,7 +168,7 @@
         --fs-lg: 30px;
         --fs-lgs: 35px;
         --fs-xl: 34px;
-        --fs-xls: 44px;
+        --fs-xls: 36px;
         --fs-xxl: 40px;
     }
 
