@@ -58,7 +58,7 @@
     </button>
    <div class="overflow-hidden">
     <header class="header-bg d-flex flex-column min-vh_100">
-        <nav class="nav-section bg-black position-sticky  z-1">
+        <nav class="nav-section bg-black position-sticky z-1">
             <div class="container d-flex  align-items-center justify-content-between">
                 <a href="#"><img src="./assets/image/Logo1.png" alt="logo" class="w_100 nav-logo"></a>
                 <div class="d-flex align-items-center gap-75 navbar">
@@ -92,11 +92,19 @@
                         connect wallet
                     </button>
                 </div>
-                <label class="menu-box d-xxl-none z-1" onclick="opennav()">
+
+                <!-- <label class="menu-box d-xxl-none z-1" onclick="opennav()">
                     <span class="line1"></span>
                     <span class="line2"></span>
                     <span class="line3"></span>
+                </label> -->
+
+                <label for="checkbox" id="menu" onclick="opennav()" class="d-xxl-none z-1">
+                    <span id="line"></span>
+                    <span id="line-1"></span>
+                    <span id="line-2"></span>
                 </label>
+
             </div>
         </nav>
         <div class="hero d-flex flex-grow-1 position-relative">
@@ -276,7 +284,7 @@
     
     <!-- section-team -->
     <section class="bgteamimg py-5">
-        <div class="container py-5">
+        <div class="container py-5 position-relative z-1">
             <div class="d-flex align-items-center justify-content-center py-5">
                 <p class="fw-normal fs_xls white_color ff_primary txt_captalize">Team</p>
             </div>
@@ -1087,10 +1095,10 @@
         </div>
     </section>
     <!-- <footer> -->
-    <footer class="bg-black position-relative pt-5 z-1 overflow-hidden">
+    <footer class="bg-black position-relative pt-5  overflow-hidde">
         <span><img src="./assets/image/elps-welcomeleft.png" alt="#" class="position-absolute ftrimg"></span>
         <span class="position-absolute ftr"></span>
-        <div class="container text-center">
+        <div class="container text-center position-relative z-1">
             <img src="./assets/image/fot-logo.png" alt="footer-logo">
             <div class="d-flex gap-4 justify-content-center py-lg-5">
                 <a href="#"><svg class="footer-icon" width="58" height="58" viewBox="0 0 58 58" fill="none"
@@ -1252,6 +1260,10 @@
         function opennav() {
             document.getElementById("navbar").classList.toggle("start-0");
             document.body.classList.toggle("overflow-hidden")
+         
+             document.getElementById("line").classList.toggle("rotates1")
+            document.getElementById("line-1").classList.toggle("rotates2")
+            document.getElementById("line-2").classList.toggle("rotates3")
         }
     </script>
 
