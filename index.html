@@ -62,7 +62,7 @@
             <div class="container d-flex  align-items-center justify-content-between">
                 <a href="#"><img src="./assets/image/Logo1.png" alt="logo" class="w_100 nav-logo"></a>
                 <div class="d-flex align-items-center gap-75 navbar">
-                    <ul class="d-flex mb-0 ps-0 gap-35 align-items-center" id="navbar">
+                    <ul class="d-flex mb-0 ps-0 gap-4 gap-xxl-35 align-items-center" id="navbar">
                         <li><a href="#"
                                 class="fs_sm fw-normal text-white text-capitalize ff_primary position-relative underline">BUY
                                 A SAS</a></li>
@@ -92,7 +92,7 @@
                         connect wallet
                     </button>
                 </div>
-                <label class="menu-box d-xxl-none z-1" onclick="opennav()">
+                <label class="menu-box d-xl-none z-1" onclick="opennav()">
                     <span class="line1"></span>
                     <span class="line2"></span>
                     <span class="line3"></span>
@@ -139,7 +139,7 @@
                 </div>
                 <div class="col-12 col-sm-10 col-md-8 col-lg-6 pt-4 pt-lg-0" data-aos="fade-down-left">
                     <div class="d-flex flex-column justify-content-center ">
-                        <p class="ff_primary fw-normal white_color fs_xl">Welcome to
+                        <p class="ff_primary fw-normal white_color fs_xl">Welcome to</p>
                             <span class="ff_primary fw-normal color_gradient  fs_xls d-lg-block">Small Arms
                                 Syndicate</span>
                         </p>
@@ -211,8 +211,8 @@
                 </div>
     
             </div>
-            <div class="row mt-5">
-                <div class="col-12  col-lg-7" data-aos="fade-down-right">
+            <div class="row mt-5 align-items-end justify-content-between">
+                <div class="col-12  col-lg-6" data-aos="fade-down-right">
                     <p class="fw-normal ff_primary fs_lgs txt_captalize color_phase">Phase 3 (Funding Plans)</p>
                     <p class="fw-normal ff_secondary white_color fs_sm txt_captalize line_higt">Phase 3 will be
                         activated as we find new homes for our Small <span class="d-xl-block">Arms Syndicate NFTs</span>
@@ -268,7 +268,7 @@
     
                 </div>
                 <div class="col-12  col-lg-5" data-aos="fade-down-left">
-                    <span><img src="./assets/image/roadmap-img.png" alt="" class="w-100"></span>
+                    <img src="./assets/image/roadmap-img.png" alt="" class="w-100">
                 </div>
             </div>
         </div>
@@ -285,8 +285,8 @@
                     <div class="card-team position-relative">
                         <span><img src="./assets/image/teamimg1s.png" alt="#" class="teamimg1 w-100"></span>
                         <div class="d-flex flex-column align-items-center  card-text-team">
-                            <p class="ff_primary white_color fs_lg fw-normal whitsps">Omar Gouse</p>
-                            <p class="ff_secondary fw-normal fs_sm white_color">(CEO)</p>
+                            <p class="ff_primary white_color fs_lg fw-normal mb-2 whitsps">Omar Gouse</p>
+                            <p class="ff_secondary fw-normal fs_sm white_color mb-0">(CEO)</p>
                         </div>
                     </div>
                 </div>
@@ -294,8 +294,8 @@
                     <div class="card-team position-relative">
                         <span><img src="./assets/image/teamimg2s.png" alt="#" class="teamimg1 w-100"></span>
                         <div class="d-flex flex-column align-items-center  card-text-team">
-                            <p class="ff_primary white_color fs_lg fw-normal whitsps">Omar Gouse</p>
-                            <p class="ff_secondary fw-normal fs_sm white_color">(CEO)</p>
+                            <p class="ff_primary white_color fs_lg fw-normal whitsps mb-2">Omar Gouse</p>
+                            <p class="ff_secondary fw-normal fs_sm white_color mb-0">(CEO)</p>
                         </div>
                     </div>
                 </div>
@@ -303,8 +303,8 @@
                     <div class="card-team position-relative">
                         <span><img src="./assets/image/teamimg3s.png" alt="#" class="teamimg1 w-100"></span>
                         <div class="d-flex flex-column align-items-center  card-text-team">
-                            <p class="ff_primary white_color fs_lg fw-normal whitsps">Omar Gouse</p>
-                            <p class="ff_secondary fw-normal fs_sm white_color">(CEO)</p>
+                            <p class="ff_primary white_color fs_lg fw-normal whitsps mb-2">Omar Gouse</p>
+                            <p class="ff_secondary fw-normal fs_sm white_color mb-0">(CEO)</p>
                         </div>
                     </div>
                 </div>
@@ -1283,7 +1283,11 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init(
+            {
+                once:true
+            }
+        );
     </script>
 </body>
 

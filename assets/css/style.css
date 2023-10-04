@@ -192,11 +192,13 @@
 
 .card-text-team {
     position: absolute;
-    left: 25%;
-    bottom: 10%;
+    left: 29%;
+    bottom: 5%;
     z-index: 1;
 }
-
+.menu-box{
+    cursor: pointer;
+}
 .whitsps {
     white-space: nowrap;
 }
@@ -722,7 +724,7 @@ p {
 
 
 
-@media (max-width:1399.98px) {
+@media (max-width:1199.98px) {
     .navbar ul {
         flex-direction: column;
         background-color: black;
@@ -746,5 +748,8 @@ p {
 @media (min-width:1399.98px) {
     .pt-106 {
         padding-top: 106px !important;
+    }
+    .gap-xxl-35{
+        gap: 35px !important;
     }
 }
