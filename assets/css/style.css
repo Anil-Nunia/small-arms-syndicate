@@ -325,9 +325,9 @@
 
     .videoicon {
         position: absolute;
-        bottom: -38%;
-        left: -28%;
-        max-width: 140px;
+        bottom: -16%;
+        left: 30%;
+        /* max-width: 140px; */
         z-index: 4;
     }
 
@@ -361,9 +361,9 @@
 
     .videoicon {
         position: absolute;
-        bottom: -18%;
-        left: -25%;
-        max-width: 140px;
+        bottom: -11%;
+        left: -13%;
+        /* max-width: 140px; */
         z-index: 4;
     }
 
