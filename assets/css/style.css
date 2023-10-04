@@ -327,18 +327,12 @@
 
     .videoicon {
         position: absolute;
-<<<<<<< HEAD
+
         bottom: -38%;
         left: -28%;
         max-width: 140px;
         z-index: 4;
-=======
-        bottom: -10%;
-        left: 42%;
-        /* max-width: 140px; */
-        z-index: 4;
-        width: 55px !important;
->>>>>>> ae6edbaf6bb3340bd1cb49d7f0baa7c10d5f7c09
+
     }
 
     .royalty5img {
@@ -371,18 +365,11 @@
 
     .videoicon {
         position: absolute;
-<<<<<<< HEAD
         bottom: -18%;
         left: -25%;
         max-width: 140px;
         z-index: 4;
-=======
-        bottom: -11%;
-        left: -13%;
-        /* max-width: 140px; */
-        z-index: 4;
-        width: 100% !important;
->>>>>>> ae6edbaf6bb3340bd1cb49d7f0baa7c10d5f7c09
+
     }
 
     .royalty5img {
@@ -476,7 +463,7 @@
     gap: 75px;
 }
 
-/* .line1,
+.line1,
 .line2,
 .line3 {
     width: 35px;
@@ -484,7 +471,7 @@
     margin-bottom: 7px;
     display: flex;
     background-color: white;
-} */
+}
 
 .line-height-143 {
     line-height: 143.765%;
@@ -737,14 +724,9 @@ p {
     }
 }
 
-<<<<<<< HEAD
+
 @media (max-width:1399.98px) {
-=======
 
-
-
-@media (max-width:1199.98px) {
->>>>>>> ae6edbaf6bb3340bd1cb49d7f0baa7c10d5f7c09
     .navbar ul {
         flex-direction: column;
         background-color: black;
@@ -758,54 +740,19 @@ p {
         transition: all 500ms linear;
     }
 
-    /* .pt_4 {
+    .pt_4 {
         padding-top: 24px;
-    } */
-
-    label[for="checkbox"] {
-        height: 33px;
-        width: 35px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        z-index: 200 !important;
     }
 
-    label[for="checkbox"]>span {
-        height: 5px;
-        width: 38px;
-        border-radius: 40px;
-        background-color: #ffffff !important;
-    }
-
-    .rotates1 {
-        transform: rotate(45deg);
-        transform-origin: 0px;
-    }
-
-    .rotates2 {
-        display: none;
-    }
-
-    .rotates3 {
-        transform: rotate(-45deg);
-        transform-origin: 0px;
-    }
-
-<<<<<<< HEAD
-=======
-
->>>>>>> ae6edbaf6bb3340bd1cb49d7f0baa7c10d5f7c09
 }
 
 @media (min-width:1399.98px) {
     .pt-106 {
         padding-top: 106px !important;
     }
-<<<<<<< HEAD
-=======
+
     .gap-xxl-35{
         gap: 35px !important;
     }
->>>>>>> ae6edbaf6bb3340bd1cb49d7f0baa7c10d5f7c09
+
 }
