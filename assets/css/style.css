@@ -327,10 +327,11 @@
 
     .videoicon {
         position: absolute;
-        bottom: -16%;
-        left: 30%;
+        bottom: -10%;
+        left: 42%;
         /* max-width: 140px; */
         z-index: 4;
+        width: 55px !important;
     }
 
     .royalty5img {
@@ -367,6 +368,7 @@
         left: -13%;
         /* max-width: 140px; */
         z-index: 4;
+        width: 100% !important;
     }
 
     .royalty5img {
