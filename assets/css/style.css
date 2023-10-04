@@ -176,14 +176,12 @@
 .line_height {
     line-height: 174%;
 }
-
 .bgteamimg {
     background-image: url(../image/bgteamimg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .card-team:hover {
     box-shadow: 0px 4px 41px 0px rgba(254, 215, 16, 0.50);
@@ -652,7 +650,6 @@ p {
     background-color: transparent;
 }
 
-
 /* preloader */
 #preloader-box {
     min-height: 100vh;
@@ -707,13 +704,11 @@ p {
     }
 }
 
-
 @media (min-width:991.98px) and (max-width:1199.98px) {
     header {
         height: 750px;
     }
 }
-
 @media (min-width:1199.98px) {
     .min-vh_100 {
         min-height: 100vh !important;
@@ -723,7 +718,6 @@ p {
         padding-top: 70px !important;
     }
 }
-
 
 @media (max-width:1399.98px) {
 
